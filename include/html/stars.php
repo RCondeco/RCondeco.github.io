@@ -1,4 +1,8 @@
-<link rel="stylesheet" type="text/css" href="stars.css" media="screen" />
+<?php
+ include "..include/css/stars.css";
+?>
+
+
 
 kjhjkhjkhjkh???
 <div class="stars">
