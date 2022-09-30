@@ -11,17 +11,26 @@
           $("#includedContent").load("include/html/stars.html"); 
         });
         </script> 
+    <style>
+        .wrapper{
+            position:relative;
+        }
+
+        #Texto{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+    </style>
 </head>
 
 <body>
-    <div id="includedContent">
-        <div>
-            <div>
-                <a href="#"><h3>Chronicles Of A New World</h3></a>
-            </div>
-            <div>
-                <a href="#"><h3>The Siege of Eskiheim</h3></a>
-            </div>
+    <div class="wrapper">
+        <div id="includedContent"></div>
+        <div id="Texto">
+            <a href="#"><h3>Chronicles Of A New World</h3></a>
+            <a href="#"><h3>The Siege of Eskiheim</h3></a>
         </div>
     </div>
 </body>
