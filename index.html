@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rcondeco</title>
     <link rel="stylesheet" href="include/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> 
+        $(function(){
+          $("#includedContent").load("include/html/stars.html"); 
+        });
+        </script> 
 </head>
 
 <body>
-    <script src="include/js/script.js"></script>
+    <div id="includedContent"></div>
 </body>
 
 </html>
