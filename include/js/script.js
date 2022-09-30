@@ -11,6 +11,7 @@ const genRandomNumber = (min, max) => {
 // Generate a star <div>
 
 const genStar = () => {
+
     const star = document.createElement("div");
     star.classList.add("star");
 
@@ -19,7 +20,7 @@ const genStar = () => {
     let y = genRandomNumber(1, $el.offsetHeight);
 
     const { style } = star;
-    
+
     style.left = Math.floor(x) + "px";
     style.top = Math.floor(y) + "px";
 
