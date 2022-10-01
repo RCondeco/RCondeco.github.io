@@ -40,3 +40,13 @@ body {
     font-family: 'Norse';
     src: url('/include/floki-Hard.ttf');
 }
+
+#Texto{ 
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100%;
+    z-index: 1;
+}
